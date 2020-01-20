@@ -2,6 +2,7 @@ import React from "react";
 import './global.css';
 import './App.css';
 import './Sidebar.css';
+import './Main.css';
 
 function App() {
   return (
@@ -35,7 +36,55 @@ function App() {
 
       </aside >
       <main>
+        <ul>
+          <li className="dev-item">
+            <header>
+            <img src="https://scontent.ftow1-1.fna.fbcdn.net/v/t1.0-9/p960x960/34561825_1536935399750049_9166154422407921664_o.jpg?_nc_cat=108&_nc_ohc=jOL8ILlyWFYAX-UAi0J&_nc_ht=scontent.ftow1-1.fna&_nc_tp=1002&oh=375eb976dd274a1d963e1fd076818472&oe=5E9E3509"></img>
+              <div className="user-info">
+                <strong>Bilubilu Bilu</strong>
+                <span>Basic, Cobol, Assembly</span>
+              </div>
+            </header>
+            <p>Bio bio bio bio bio bio bio bio bio bio</p>
+            <a href="github.com/jacksonvfo">Acessar perfil no Github</a>
+          </li>
 
+          <li className="dev-item">
+            <header>
+              <img src="https://scontent.ftow1-1.fna.fbcdn.net/v/t1.0-9/p960x960/34561825_1536935399750049_9166154422407921664_o.jpg?_nc_cat=108&_nc_ohc=jOL8ILlyWFYAX-UAi0J&_nc_ht=scontent.ftow1-1.fna&_nc_tp=1002&oh=375eb976dd274a1d963e1fd076818472&oe=5E9E3509"></img>
+              <div className="user-info">
+                <strong>Bilubilu Bilu</strong>
+                <span>Basic, Cobol, Assembly</span>
+              </div>
+            </header>
+            <p>Bio bio bio bio bio bio bio bio bio bio</p>
+            <a href="github.com/jacksonvfo">Acessar perfil no Github</a>
+          </li>
+
+          <li className="dev-item">
+            <header>
+            <img src="https://scontent.ftow1-1.fna.fbcdn.net/v/t1.0-9/p960x960/34561825_1536935399750049_9166154422407921664_o.jpg?_nc_cat=108&_nc_ohc=jOL8ILlyWFYAX-UAi0J&_nc_ht=scontent.ftow1-1.fna&_nc_tp=1002&oh=375eb976dd274a1d963e1fd076818472&oe=5E9E3509"></img>
+              <div className="user-info">
+                <strong>Bilubilu Bilu</strong>
+                <span>Basic, Cobol, Assembly</span>
+              </div>
+            </header>
+            <p>Bio bio bio bio bio bio bio bio bio bio</p>
+            <a href="github.com/jacksonvfo">Acessar perfil no Github</a>
+          </li>
+
+          <li className="dev-item">
+            <header>
+            <img src="https://scontent.ftow1-1.fna.fbcdn.net/v/t1.0-9/p960x960/34561825_1536935399750049_9166154422407921664_o.jpg?_nc_cat=108&_nc_ohc=jOL8ILlyWFYAX-UAi0J&_nc_ht=scontent.ftow1-1.fna&_nc_tp=1002&oh=375eb976dd274a1d963e1fd076818472&oe=5E9E3509"></img>
+              <div className="user-info">
+                <strong>Bilubilu Bilu</strong>
+                <span>Basic, Cobol, Assembly</span>
+              </div>
+            </header>
+            <p>Bio bio bio bio bio bio bio bio bio bio</p>
+            <a href="github.com/jacksonvfo">Acessar perfil no Github</a>
+          </li>
+        </ul>
       </main>
     </div>
   );
